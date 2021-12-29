@@ -1,0 +1,192 @@
+@media ( max-width: 1200px )
+  .menu
+    &_link
+      font-size: 13px
+  .promo
+    &_header
+      font-size: 56px
+  .reasons
+    &_block
+      align-items: flex-start
+    &_descr
+      width: 300px
+
+@media ( max-width: 991px )
+  .menu
+    &_link
+      font-size: 10px
+  .subheader
+    &_logo
+      img
+        width: 100%
+    &_text
+      font-size: 11px
+    &_phonenumber
+      font-size: 21px
+    &_btn
+      margin-top: 21px
+      height: 40px
+      width: 100%
+  .promo
+    &_header
+      font-size: 40px
+    &_subheader
+      font-size: 30px
+  .reasons
+    &_block
+      align-items: center
+      flex-direction: column
+    &_subtitle
+      margin-top: 30px
+      text-align: center
+    &_descr
+      width: 300px
+      text-align: center
+    &_round
+      margin-right: 0
+  .sublabel_title
+    font-size: 32px
+  .automobile
+    &_img
+      width: 100%
+
+@media ( max-width: 767px )
+  .menu
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    position: fixed
+    top: 0
+    left: -100%
+    width: 50%
+    height: 100vh
+    padding: 20px 15px
+    background-color: rgba(0, 0, 0, .8)
+    backdrop-filter: blur(10px)
+    transition: 0.6s all
+    &_active
+      left: 0
+    &_item
+      padding: 0
+      border: 0
+      margin-top: 20px
+    &_link
+      font-size: 20px
+  .promo
+    &_header
+      font-size: 40px
+      line-height: 45px
+    &_descr
+      font-size: 16px
+  .hamburger
+    display: block
+    position: absolute
+    right: 20px
+    top: 50%
+    transform: translateY(-50%)
+    width: 30px
+    // height: 30px
+    span
+      display: block
+      height: 2px
+      width: 100%
+      background-color: #fff
+      margin: 6px 0
+      transition: 0.4s all ease-out
+    &_active
+      span
+        margin: -2px 0
+        &:nth-last-child(1)
+          transform: translateY(3px) rotate(-45deg)
+        &:nth-last-child(2)
+          display: none
+        &:nth-last-child(3)
+          transform: translateY(3px) rotate(45deg)
+  .xs-hidden
+    display: none
+  .xs-visible
+    display: block
+  .subheader
+    &_phonenumber
+      margin-top: 10px
+      display: block
+      color: #fff
+      font-size: 18px
+      font-weight: 400
+      text-transform: uppercase
+      text-align: right
+    &_btn
+      display: block
+      position: relative
+      width: 200px
+      height: 40px    
+      // margin: 0 auto 
+      margin-top: 5px  
+      float: right
+  
+  .footer_download
+    img
+      width: 1px
+
+@media ( max-width: 575px )
+  
+  .header_nav, header
+    height: 50px
+  .subheader
+    height: 60px
+    top: 50px
+    &_text
+      display: none
+    &_logo
+      margin-top: 18px
+    &_phonenumber
+      font-size: 12px
+      margin-top: 6px
+    &_btn
+      width: 120px
+      height: 26px
+      font-size: 10px
+      margin-top: 5px
+  .promo
+    min-height: 400px
+    padding: 93px 0 35px 0
+    &_descr
+      display: none
+    &_header
+      font-size: 30px
+      padding: 0 24px
+      line-height: 36px
+    &_subheader
+      font-size: 20px
+      margin-top: 33px
+      padding: 0 10px
+      line-height: 26px
+    &_btn
+      width: 210px
+      height: 50px
+      margin-top: 72px
+      font-size: 16px
+  .menu
+    width: 75%
+    align-items: flex-start
+    &_link
+      font-size: 16px
+  .reasons
+    padding: 22px 0 30px 0
+    &_block
+      margin-top: 26px
+    &_round
+      width: 100px
+      height: 100px
+      img
+        width: 60%
+    &_subtitle
+      width: 100%
+      margin-top: 27px
+    &_text
+      margin-top: 10px
+  .sublabel_title
+    font-size: 16px
+    margin-top: 15px
+    line-height: 16px
+    
